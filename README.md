@@ -1,0 +1,1 @@
+# 45-Typescript-Assignment-Questions-solution-giaic
