@@ -11,6 +11,7 @@ favtransportation.forEach(favtransportation => {
 });
 
 
+
 console.log ("with the help of loops")
 
 for (let i=0; i<favtransportation.length; i++){
