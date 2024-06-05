@@ -5,3 +5,32 @@
 
 • Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. • Print a new set of invitation messages, one for each person in your list.*/
 
+//From Question-15
+let guestList : string []= ["faizan", "amjad", "raheel", "shoaib"];
+
+
+const index = guestList.indexOf("raheel");
+
+if (index !== -1) {
+    // Remove one item at the found index and insert "Danesh"
+    guestList.splice(index, 1, "Danesh")};
+    
+    //invitation to the new list guests same invitation message
+    guestList.forEach((guest: string)=> {
+    console.log (`Dear ${guest},\nYou are cordially invited to dinner. Please join us for an evening of great food and stimulating conversation.\n\nBest regards,\n kapil Lohana`)
+    
+});
+console.log ("raheel is not coming to the party so instead of raheel we are inviting danesh my friend to the party")
+
+//Question-16
+
+console.log ("\nThere is a good news! we just found bigger dinner table so we have three more friends to join us \n");
+
+guestList.unshift("Karan");
+guestList.splice(3,0,"Shazia");
+guestList.push("Bisma");
+
+guestList.forEach((guest: string)=> {
+    console.log (`Dear ${guest},\nYou are cordially invited to dinner. Please join us for an evening of great food and stimulating conversation.\n\nBest regards,\n kapil Lohana`)
+});
+
